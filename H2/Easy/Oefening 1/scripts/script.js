@@ -1,3 +1,3 @@
-let leeftijd = 17
-leeftijd++
-alert(leeftijd)
+let leeftijd = 17;
+leeftijd++;
+alert(leeftijd);

@@ -1,4 +1,4 @@
-let a = 7
-let b = 3
-let som = a + b
+const a = 7
+const b = 3
+const som = a + b
 console.log(som)

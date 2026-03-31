@@ -1,0 +1,40 @@
+/* Algemene pagina-opmaak */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  margin: 20px;
+  color: #333;
+}
+
+/* Titel */
+h1 {
+  color: #2c7be5;
+  margin-bottom: 10px;
+}
+
+/* Boodschappenlijst */
+#boodschappenlijstje {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Lijst-items */
+#boodschappenlijstje li {
+  list-style-type: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Laatste item zonder lijn */
+#boodschappenlijstje li:last-child {
+  border-bottom: none;
+}
+
+/* Totaal tekst */
+p {
+  margin-top: 15px;
+  font-weight: bold;
+}

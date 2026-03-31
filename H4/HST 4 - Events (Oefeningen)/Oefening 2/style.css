@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#woord-container {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#invoer {
+    font-size: 18px;
+    padding: 5px;
+    width: 200px;
+}
+
+#start {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#tijd {
+    margin-top: 10px;
+    font-style: italic;
+}

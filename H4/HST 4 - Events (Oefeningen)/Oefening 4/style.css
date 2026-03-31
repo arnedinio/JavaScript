@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#veld-container {
+    position: relative;
+    width: 600px; /* breedte veld */
+    height: 400px; /* hoogte veld */
+    border: 2px solid green;
+    margin-bottom: 20px;
+}
+
+#veld {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.speler {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+    font-weight: bold;
+    font-size: 14px;
+}

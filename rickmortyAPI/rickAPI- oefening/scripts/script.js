@@ -8,8 +8,9 @@ button.addEventListener('click', () => {
 
 async function getKarakter() {
     let getal = Math.floor(Math.random() * 826);
-    let response = await fetch(`https://rickandmortyapi.com/api/character/HET_ID`);
+    let response = await fetch(`https://rickandmortyapi.com/api/character/${getal}`);
     let data = await response.json();
     naamLabel.textContent = data.name;
     foto.src = data.image;
 }
+getKarakter();
